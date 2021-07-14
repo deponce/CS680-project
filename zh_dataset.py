@@ -34,7 +34,7 @@ class ZhEnDataset(torch.utils.data.IterableDataset):
 
 class BaggingDataset(torch.utils.data.IterableDataset):
     def __init__(self, size):
-        super(ZhEnDataset).__init__()
+        super(BaggingDataset).__init__()
 
         self.size = size
 
